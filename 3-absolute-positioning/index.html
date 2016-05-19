@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		* {
+			border: 1px solid red !important;
+		}
+		#container {
+		    margin-right: auto; /*Auto margins used for centering elements*/
+		    margin-left: auto; 
+		    width: 960px;
+		    padding: 10px;
+    		border-radius: 10px;
+    		
+		}
+		.box {
+		    height: 150px;
+		    background-color: #81BBC9;
+		    padding-top: 10px;
+		    padding-bottom: 10px;
+		    border-radius: 10px;
+		    text-align: center;
+		    
+		}
+		#sidebar {
+			display: inline-block;
+			height: 320px;
+			width: 315px;
+		}
+		#content {
+			display: inline-block;
+			height: 320px;
+			width: 635px;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div class="box">
+			<h1>Header</h1>
+		</div>
+    	<div id="sidebar" class="box">
+    		<h1>Sidebar</h1>
+    	</div>
+    	<div id="content" class="box">
+    		<h1>Content</h1>
+    	</div>
+    	<div class="box">
+    		<h1>Footer</h1>
+    	</div>
+	</div>
+</body>
+</html>
